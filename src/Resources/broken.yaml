@@ -1,0 +1,13 @@
+VanNes\Entity:
+    entity_1:
+        __construct:
+            - <word()>
+            - '@ytitne_1'
+
+
+VanNes\Ytitne:
+    ytitne_1:
+        __construct:
+            - <word()>
+        __calls:
+            -  alterEntity: ['@entity_1']

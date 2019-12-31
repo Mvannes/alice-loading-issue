@@ -1,0 +1,18 @@
+{
+    "name": "mvannes/alice-loading-issue",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Michael van Nes",
+            "email": "mvannes@hostnet.nl"
+        }
+    ],
+    "require": {
+        "nelmio/alice": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "VanNes\\": "src/"
+        }
+    }
+}
