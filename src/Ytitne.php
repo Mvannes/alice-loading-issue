@@ -20,7 +20,7 @@ class Ytitne
 
             // Switch the comments on line 22 and 23 to see the different objects.
             throw new \InvalidArgumentException('Can not alter this entity, as one exists');
-//            return
+//            return;
         }
         $this->entity = $entity;
     }
